@@ -89,7 +89,7 @@ src="data:image/png;data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCA
 <script>
 function confirmarWhatsApp(event) {
   event.preventDefault(); // evita abrir directamente
-  if (confirm('¿Querés abrir WhatsApp para reclamar tu bono del 50%?')) {
+  if (confirm('¿Querés abrir WhatsApp para reclamar tu bono del 100%?')) {
     fbq('trackCustom', 'WhatsAppConfirmado'); // evento solo si confirma
     window.location.href = 'https://wa.me/5492236059508?text=Quiero%20reclamar%20mi%20bono%20del%20100%25';
   }
@@ -97,4 +97,5 @@ function confirmarWhatsApp(event) {
 </script>
 
 </body>
+
 </html>
